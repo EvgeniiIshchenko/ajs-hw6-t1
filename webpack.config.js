@@ -1,7 +1,7 @@
 const path = require('node:path');
 
 module.exports = {
-    entry: './src/inheritance.js',
+    entry: './src/sortCharacterProperties.js',
     output: { path: path.resolve(__dirname, 'dist'), },
     module: {
         rules: [
